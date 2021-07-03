@@ -113,11 +113,11 @@ public class ShoppingCartService {
 		pp4.setProductDescription("ABC de");
 		
 		List<Product> productList2 = new ArrayList<>();
-		productList2.add(p3);
+		productList2.add(pp3);
 		productList2.add(pp2);
 		productList2.add(pp3);
 		productList2.add(pp4);
-		basket2.setProduct(productList);
+		basket2.setProduct(productList2);
 		basket2.setPromotions(Promotions.promotion2);
 		
 		service.addToCartService(basket2);
